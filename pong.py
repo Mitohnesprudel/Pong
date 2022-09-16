@@ -14,7 +14,7 @@ if(given % 2 != 0):
 
 WIDTH = given
 
-print("Press Ctrl + C to close")
+print("Press q to close")
 PADDLE_HEIGHT = int(WIDTH/9.14285714286)
 PADDLE_WIDTH = int(WIDTH/64)
 
@@ -43,7 +43,10 @@ two = 0
 ball = [0,0,randint(0,WIDTH-1),int(WIDTH/2),choice(POSSIBILITIES),choice(POSSIBILITIES)]
 
 delta = 0
-while True:
+gameRunning = True
+while gameRunning:
+    if is_pressed("q"):
+        gameRunning = False
     collision = False
     end = time()
     frame = zeros((WIDTH,WIDTH))
