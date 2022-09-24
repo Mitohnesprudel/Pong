@@ -1,3 +1,3 @@
 # Pong
 Ping Pong
-![image](https://user-images.githubusercontent.com/75847634/192118693-0360055d-c0bc-45b3-a18a-d702c02f0e68.png)
+![image](https://user-images.githubusercontent.com/75847634/192118719-6e911446-467a-474c-911a-294e35b91cf1.png)
